@@ -78,7 +78,26 @@
 // }
 
 // Ch 10
-// declare an array of numbers from 1 - 10
-// declare an empty arry of odd numbers 
-// loop through each number of the odd array
-// if the number is odd push it to a the new array 
+// let count = 0;
+
+// for (let i = 1; i <= 10; i++) {
+//     if (i % 2 !== 0) {
+//         count++
+//     }
+// }
+
+// console.log("total amount of odd numbers:", count);
+
+//Bonus Round: continue
+// for (let i = 1; i <= 10; i++) {
+//     if (i === 5) continue;
+//     console.log(i);
+// }
+
+// Bonus Round: Break
+
+for (let i = 1; i <= 10; i++) {
+    if (i === 7) break;
+    console.log(i);
+}
+
